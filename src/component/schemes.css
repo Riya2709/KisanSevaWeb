@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .listG{
+      font-size: 20px;
+      color: #000;
+      font-weight: 600;
+  }
+ .container h2{
+      font-size: 30px;
+      text-decoration:underline;
+
+  }
+  .know-more{
+    margin-left: 5px;
+    padding: auto;
+    width: 150px;
+    background: #1abc9c;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-color: transparent;
+    font-size: medium;
+    box-shadow: 2px 2px 2px #ccc;
+    float:right}  
+    .know-more:hover{
+        background-color: cornflowerblue;
+    }
+    .think{
+        color: yellow;
+    }
+    .load{
+        
+        
+        font-size: 30px;
+        color: blue;
+    }
+    .spin{
+        margin-top:150px ;
+    }
+   

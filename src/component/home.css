@@ -1,0 +1,8 @@
+.carousel-inner img {
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+  }
+  .carousel-inner li{
+      background-color: blue;
+  }

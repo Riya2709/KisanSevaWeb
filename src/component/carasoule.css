@@ -1,0 +1,40 @@
+#carouselExampleIndicators{
+	
+	height: 100vh;
+	width: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #000;
+}
+.info h1{
+    font-size: 60px;
+    
+}
+video{
+   
+        position: relative;
+        height: 100vh;
+        width:100%;
+        top: 0;
+		object-fit: cover;
+        left: 0;
+        opacity: .5;
+        overflow:hidden;
+    
+}
+#carouselExampleIndicators .carousel-inner .carousel-item .info h1{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: auto;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+    color: white;
+    font-size: 80px;
+    
+}

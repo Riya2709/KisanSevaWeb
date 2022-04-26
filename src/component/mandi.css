@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.main {
+  background:purple;
+  height: 100vh;
+  width: 100%;
+  margin-top: 5px auto;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  display: grid;
+  grid-template-rows: 1fr,1fr;
+  grid-gap:10px;
+  grid-auto-rows: auto;
+
+  
+}
+.centered{
+  margin: auto;
+  text-align: center;
+
+
+}
+.centered img{
+  margin-top: 5px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px 0px whitesmoke;
+}
+.centered h2{
+  font-size: 30px;
+  transition: 0.2s ease all;
+  color: black;
+}
+.centered h2:hover{
+  color:purple
+}
+.centered p{
+  font-size: 20px;
+  font-weight: 400;
+}
+form label{
+  font-size: 25px;
+  font-weight: 600;
+  color:black;
+ 
+}
+form select{
+  margin-left: 5px;
+  border-radius: 10px;
+  width: 150px;
+  border-color: transparent;
+  box-sizing: 10px;
+  font-size: medium;
+
+}
+button{
+  margin-left: 5px;
+  padding: auto;
+  width: 80px;
+  background: #1abc9c;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-color: transparent;
+  font-size: medium;
+  box-shadow: 2px 2px 2px #ccc;
+
+}
+.centered h4 {
+  margin-top: 10px;
+}
+.centered h3{
+  margin-top: 10px;
+
+}
+
+.result{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,2fr));
+  grid-gap: 5px;
+ background: rgb(163, 142, 182);
+  grid-auto-rows: auto;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.card{
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(209, 249, 250);
+  border-radius: 20px;
+  color: black;
+}
+.card-title{
+  font-size: 20px;
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+

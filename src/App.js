@@ -1,25 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import "./component/navbar.css";
+import {Route,Routes} from "react-router-dom";
+import Navbar from "./component/Navbar";
+import MandiPrice from './component/MandiPrice';
+import Schemes from "./component/Schemes";
+import CropP from "./component/CropP";
+import Home from "./component/Home";
+import SchemesDetail from './component/SchemesDetail';
+
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar/>
+      <Routes>
+        <Route  exact path="/" element={<Home/>}/>
+        <Route exact path="/schemes" element={<Schemes/>}/>
+        <Route exact path="/mandi" element={<MandiPrice/>}/>
+        <Route exact path="/crop" element={<CropP/>}/>
+        <Route exact path="/schemedetail" element={<SchemesDetail/>}/>
+        <Route  path="*" element={<Home/>}/>
+       
+      </Routes>
+    </>
+
+      
+    
+    
+  )
+    
 }
 
 export default App;
